@@ -2,7 +2,11 @@
 title: "Hello world"
 author: "Naveen chandra"
 date: "25/05/2020"
-output: word_document
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+  word_document: default
 ---
 
 ## This is a markdown file
